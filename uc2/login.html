@@ -1,0 +1,89 @@
+<html>
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="../../AppData/Local/Temp/Adobe/Dreamweaver CC 2018/Login.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <script type='text/javascript'>
+            window.history.forward()
+            function noBack()
+            {
+                window.history.forward()
+            }
+
+        </script>
+    </head> 
+
+    <body onload='window.history.forward(0)' onpageshow='if (event.persisted) noBack();' onunload=''>
+
+
+        <div  class="navbar navbar-default" style="padding-bottom: 10px; background: linear-gradient(to bottom right, #2181EE, #A3C1E2)">
+            <div class="container" style="margin-left: 40px; margin-top: 30px;">
+                <a  href="../../AppData/Local/Temp/Adobe/Dreamweaver CC 2018/Untitled-1.html"><img class="img-responsive img-rounded rounded img-fluid" src="C:\Users\Zbook\Desktop\uc2-2.jpg"></a>
+
+
+                <p style="color: blue; margin-left: 250px; margin-top: -100px; font-size: 6vw;">Online Maintenance</p>    
+
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-default" style="margin-top:-30px;">
+            <div class="container-fluid">
+                <div class="navbar-header">                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                </div>
+				<br>
+				<br>
+				<br>
+				<br>
+
+        <form action="LoginServlet" method="post">
+            <div id="login-box">
+                <div class="left">
+                    <div class="container text-center" style="margin-top: 30px;">
+                        <h2 style="margin-top:-20px; margin-left:15px;"><strong>Portal Login</strong></h2>
+                        <br>
+						<div class="text-center">
+						<div>
+                        <b>Username</b>
+                        <input type="text" name="username" Placeholder="Enter ID"  required />
+							</div>
+						<br>
+						<br>
+						<div>
+                        <b>Password</b>
+                        <input type="password" name="password" Placeholder="Enter Password" required />           
+						</div>
+						<br>
+						<br>
+						<div class="text-center wrapButton" style="margin-left: -60px;margin-right: -60px;background: #FFA500">
+                               <button name="login" >LOG IN</button>
+							</div>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+                    </div>
+
+                </div>  
+            </div>
+				</div>
+
+        </form>
+</body>
+</html>

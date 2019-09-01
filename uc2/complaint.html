@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+	<div  class="navbar navbar-default" style="padding-bottom: 10px;border-bottom-width: thin;border-color: #000000">
+            <aside style="font-size-adjust: auto;font-size: 30pt;font "><img src="../../../Downloads/Untitled-1.png" width="141" height="127" alt=""/> <strong>EMF Online Maintenance and Others</strong></aside>
+        </div>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="crec.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="addr">Address</label>
+    <input type="text" id="address" name="addr" placeholder="Your address please...">
+	  
+	  <label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="Your city here">
+	  
+	  <label for="pinc">Pincode</label>
+    <input type="text" id="pinc" name="pinc" placeholder="Your Pin Code" maxlength="6">
+
+    <label for="subject">Complaint</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
